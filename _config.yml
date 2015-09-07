@@ -5,11 +5,11 @@ gems:
 
 # Site settings
 title: Song.Huang
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+subtitle: "相信习惯的力量是强大的，它能改变的远远超过你的想象！"
 email: huangsong@lovol.cn
 name: huangsong
 description: > 
-  A simple yet classy theme for your Jekyll website or blog.
+  相信习惯的力量是强大的，它能改变的远远超过你的想象！
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://huangsong.org" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
