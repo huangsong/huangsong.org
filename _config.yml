@@ -66,7 +66,7 @@ social:
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: hs.china
     url: 
     desc: Friend me on Facebook
     share_url: //www.facebook.com/sharer.php
@@ -82,12 +82,4 @@ social:
     share_title:
     share_link:
 
-  - name: LinkedIn
-    icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
-    desc: Connect with me on LinkedIn
-    share_url: //www.linkedin.com/shareArticle
-    share_title: ?mini=true
-    share_link: "&amp;url="
 
