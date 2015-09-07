@@ -1,14 +1,93 @@
+# External gems
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+
 # Site settings
-title: 黄淞
+title: Song.Huang
+subtitle: "A simple yet classy theme for your Jekyll website or blog"
 email: huangsong@lovol.cn
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: huangsong
+description: > 
+  A simple yet classy theme for your Jekyll website or blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http:/huangsong.org" # the base hostname & protocol for your site
-twitter_username: null
-github_username:  huangsong
+url: "http://huangsong.org" # the base hostname & protocol for your site
+cover: "assets/header_image.jpg"
+logo: "assets/logo.png"
 
 # Build settings
 markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives: 
+  enabled: 
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+disqus_shortname: bencentra
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+# 
+# Example:
+# 
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share_url: http://twitter.com/share   # URL for sharing to the service (leave blank to not allow sharing)
+#     share_title: ?text=                   # Title parameter for sharing URL
+#     share_link: "&amp;url="               # Link parameter for sharing URL
+social:
+  
+
+  - name: Facebook
+    icon: facebook
+    username: thebencentra
+    url: 
+    desc: Friend me on Facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - name: GitHub
+    icon: github
+    username: huangsong
+    url: https://github.com/huangsong
+    desc: Fork me on GitHub
+    share_url:
+    share_title:
+    share_link:
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Ben Centra
+    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    desc: Connect with me on LinkedIn
+    share_url: //www.linkedin.com/shareArticle
+    share_title: ?mini=true
+    share_link: "&amp;url="
+
